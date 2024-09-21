@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00246B;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0px;
+    color: #CADCFC;
+}
+
+form{
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #CADCFC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: #CADCFC;
+    color: #00246B;
+    margin: auto;
+}
+
+form legend{
+    font-weight: bold;
+}
+
+fieldset{
+    margin: 20px;
+    border: 1px solid #00246B;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+input,textarea{
+    width: calc(100% - 25px);
+    padding: 4px 8px;
+    margin-bottom: 10px;
+}
+
+/* input,textarea:hover{
+    outline: 1px solid #00246B;
+} */
+
+#btn{
+    /* margin: 10px 20px; */
+    width: 95%;
+    margin: 0px 15px;
+    background-color: #00246B;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #CADCFC;
+    font-size: 20px;
+    cursor: pointer;
+}
